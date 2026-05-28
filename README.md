@@ -1,29 +1,95 @@
-# EduBuddy - AI Learning Assistant
+# 🎓 EduBuddy - AI Learning Assistant
 
-## SDG Goal 4: Quality Education
+**Capstone Project | Artificial Intelligence**
+**SDG Goal 4: Quality Education**
 
-EduBuddy is an AI-powered chatbot that helps students with their studies by answering questions in simple, easy-to-understand language. Available 24/7, it provides personalized learning support to students who lack access to tutors.
+---
 
-## How It Works
+## 📋 Project Overview
 
-1. Student types a question
-2. AI understands and explains the concept
-3. Student can ask follow-up questions
-4. Chat history is maintained for context
+EduBuddy is an AI-powered chatbot that helps students with their studies by answering questions in simple, easy-to-understand language. It provides personalized learning support for students who may not have access to tutors or educational guidance.
 
-## Tech Stack
+Available 24/7, EduBuddy is designed to make learning more accessible, interactive, and student-friendly.
 
-- Python
-- Streamlit (Web framework)
-- Groq API (Llama 3 model)
-- Hugging Face Spaces (Deployment)
+### 🎯 Problem Statement
 
-## Live Demo
+Many students struggle to understand academic concepts due to limited access to tutors, expensive coaching classes, or lack of personalized guidance.
 
-[Click here to try EduBuddy](https://huggingface.co/spaces/jairane86/EduBuddy-AI-Tutor)
+Traditional learning methods are often not interactive enough, and students may hesitate to ask questions repeatedly.
 
-## How to Run Locally
+### ✅ Solution
+
+An interactive AI-powered learning assistant built using **Python**, **Streamlit**, and the **Groq API (Llama 3 model)** that explains concepts in a simple and easy-to-understand way.
+
+---
+
+## ✨ Key Features
+
+* **AI-powered Question Answering** for study-related queries
+* **Simple and Easy Explanations** for better understanding
+* **24/7 Learning Assistance** anytime, anywhere
+* **Follow-up Question Support** for interactive learning
+* **Chat History Maintenance** for context-aware conversations
+* **User-friendly Interface** built with Streamlit
+
+---
+
+## 🛠 Technology Stack
+
+* **Language**: Python
+* **Frontend**: Streamlit
+* **AI Model**: Llama 3 (via Groq API)
+* **Deployment**: Hugging Face Spaces
+
+---
+
+## 🚀 Live Demo
+
+👉 [Click here to try EduBuddy](https://huggingface.co/spaces/jairane86/EduBuddy-AI-Tutor)
+
+---
+
+## 🚀 How to Run Locally
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/ranejai954/edubuddy-ai-chatbot
+cd EduBuddy
+```
+
+2. Install requirements:
 
 ```bash
 pip install -r requirements.txt
+```
+
+3. Run the application:
+
+```bash
 streamlit run app.py
+```
+
+---
+
+## 📁 Project Structure
+
+```text
+edubuddy-ai-chatbot/
+├── EduBuddy – AI Learning Assistant Solution for ...
+├── README.md
+├── app.py
+└── requirements.txt
+```
+---
+
+## 🔮 Future Scope
+
+* Voice-based interaction support
+* Multi-language learning assistant
+* Student performance tracking
+* Quiz and assignment generation
+* Personalized study recommendations
+* Mobile application deployment
+
+---
